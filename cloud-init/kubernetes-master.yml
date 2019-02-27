@@ -1,6 +1,6 @@
 #cloud-init
+hostname: k8s-master.lan.sunk.io
 rancher:
-  hostname: k8s-master.lan.sunk.io
   resize_device: /dev/sda
   services:
     rancher:
