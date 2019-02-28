@@ -1,6 +1,0 @@
-#cloud-init
-hostname: k8s-01.lan.sunk.io
-rancher:
-  resize_device: /dev/sda
-ssh_authorized_keys:
-  - ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEA1le7+05meLc7iFh4anoDgZfQtoiMnrjGlgsJ9ChMszkijBQhdHta7r8XhiZJ1xq19UE4nSBgd/OVIRCfjCT0+t/cE9B1s0y78JjH0b7IZV2AaEqQr1QJjxcPpF5mBUyyLrUtbiUZ1M7rk0GGjEpHvnHUHSQ4vHjvMGDUHfn6fSqekVgEvoY1r8PGBV4nbL3M4BEFeSs5clSBFlrM8PKf8Ni1Qhv4UvsTRG3fNgxhCqOu1VzAZ7aDppZkNe3nhrXcvX69L3/Lh28EBZZvxzh/99fUo40HD+Y8s/J09tNdY//yShGIzF4V2YtnKWk6Gc2G1Z9pwYQ2ilyKqHSJ/wXC5w== homelab
