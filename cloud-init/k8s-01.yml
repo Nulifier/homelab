@@ -2,6 +2,9 @@
 hostname: k8s-01.lan.sunk.io
 rancher:
   network:
+    dns:
+      nameservers:
+        - 10.0.0.1
     interfaces:
       eth0:
         address: 10.0.0.71/16
