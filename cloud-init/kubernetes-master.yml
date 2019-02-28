@@ -1,6 +1,13 @@
 #cloud-init
 hostname: k8s-master.lan.sunk.io
 rancher:
+  network:
+    interfaces:
+      eth0:
+        address: 10.0.0.70/16
+        gateway: 10.0.0.1
+        mtu: 1500
+        dhcp: false
   resize_device: /dev/sda
   services:
     rancher:
